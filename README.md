@@ -2,7 +2,7 @@
 
 ## Description
 
-A handler that reads values from a Google Sheet data pool and curls them to Greenhouse using both Greenhouse and Google APIs. If you want to see it in its full glory, make sure to check-out https://www.gconnection.nl/ and sign-up for a spot on their incredible app!
+A handler that reads values from a Google Sheet data pool and curls them to Greenhouse using both Greenhouse and Google APIs. If you want to see the code working in its full glory, make sure to check-out [GConnection](https://www.gconnection.nl/) and sign-up for a spot on their incredible recruiting app!
 
 ## Installation
 

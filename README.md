@@ -34,7 +34,7 @@ A handler that reads values from a Google Sheet data pool and curls them to Gree
 
 ## Contributing
 
-Contributions are not being accepted as this already solves the initial issue with all the limitations in place.
+Contributions are not being accepted and the product, or at least its public version, is finalized.
 
 ## License
 

@@ -22,7 +22,11 @@ A handler that reads values from a Google Sheet data pool and curls them to Gree
 
 1. Configure the necessary environment variables.
 
-2. Run the application:
+2. Get a "credentials.json" file from google cloud
+
+3. Create a "constants.json" file where you initialize and export constants to the corresponding spreadsheetId [Check Google Excel API Documentation for more information](https://developers.google.com/sheets/api/guides/concepts)
+
+4. Run the application:
 
    ```bash
    node index.js

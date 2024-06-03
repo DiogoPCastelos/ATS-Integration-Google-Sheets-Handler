@@ -149,11 +149,9 @@ async function readFromSheet(range, spreadsheetId) {
         candidatePhone == undefined
           ? (candidatePhone = null)
           : (candidatePhone = candidatePhone);
-        if (
-          candidateEmail == undefined
-            ? (candidateEmail = null)
-            : (candidateEmail = candidateEmail)
-        );
+        candidateEmail == undefined
+          ? (candidateEmail = null)
+          : (candidateEmail = candidateEmail);
         curlData = {
           first_name: candidateFirstName,
           last_name: candidateLastName,
@@ -173,7 +171,7 @@ async function readFromSheet(range, spreadsheetId) {
             },
           ],
         };
-        if (!candidateEmail.includes("@") ? delete curlData.emails : null);
+        !candidateEmail.includes("@") ? delete curlData.emails : null;
 
         placementReadSheet = await readFromSheet("Sheet1", logsSheet);
         const placement = placementReadSheet.data.values[1][7];
